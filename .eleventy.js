@@ -6,6 +6,9 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // Add a passthrough copy for the CSS folder
+  eleventyConfig.addPassthroughCopy('src/css');
+
   // Set directories
   return {
     dir: {
