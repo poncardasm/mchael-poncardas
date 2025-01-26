@@ -20,7 +20,7 @@ title: 'Mchael Poncardas'
     <ul>
         {% for post in collections.posts %}
             <li>
-                <a href="{{ post.url }}">{{ post.data.date | date: "MM/dd/yyyy" }} - {{ post.data.title }}</a>
+                <a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} - {{ post.data.title }}</a>
             </li>
         {% endfor %}
     </ul>
