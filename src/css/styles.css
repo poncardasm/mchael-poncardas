@@ -35,14 +35,14 @@ body {
   background-color: #ffffff;
   color: var(--gray-900);
   text-align: left; /* Set body text alignment to left */
+  max-width: 700px;
+  margin: 0 auto; /* Center the body horizontally */
+  padding: 0 20px; /* Add padding for spacing */
 }
 
 header {
   margin-top: 20px;
-  max-width: 800px;
-  margin: 20px auto; /* Center header horizontally */
   text-align: left; /* Align header text to the left */
-  padding: 0 20px; /* Add padding for spacing */
 }
 
 header h1 {
@@ -70,10 +70,8 @@ header nav a:hover {
 }
 
 .content {
-  max-width: 800px;
-  margin: 40px auto;
+  margin: 40px 0;
   text-align: left;
-  padding: 0 20px; /* Add padding for spacing */
 }
 
 .content a {
@@ -101,12 +99,10 @@ ul li {
 }
 
 footer {
-  max-width: 800px;
-  margin: 40px auto;
+  margin: 40px 0;
   text-align: left;
   font-size: 0.8rem;
   color: #888888;
-  padding: 0 20px; /* Add padding for spacing */
 }
 
 footer a {
