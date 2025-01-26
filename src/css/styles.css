@@ -134,3 +134,16 @@ blockquote {
 .post-content ul ul {
   list-style-type: circle;
 }
+
+/* Code blocks */
+.post-content code[class*='language-'],
+.post-content pre[class*='language-'] {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word; /* Add this for better compatibility */
+}
+
+/* Bottom space */
+.post-content {
+  padding-bottom: 3.125rem;
+}

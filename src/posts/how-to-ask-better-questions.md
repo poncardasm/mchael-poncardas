@@ -6,99 +6,22 @@ date: '2023-11-23'
 
 > While asking questions may seem rather simple, in a programming environment it is essential to ask well formed questions with as much context as needed so you can get the most out of asking for help. In essence, “help others help you!” — The Odin Project
 
-# Heading 1
+### 📌 Don’t Ask To Ask, Just Ask:
 
-## Heading 2
+It's better to directly ask your specific question rather than first inquiring if experts are present.
 
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
----
-
-**Bold Text**
-
-_Italic Text_
-
-~~Strikethrough Text~~
-
-> Blockquote: This is an example of a blockquote.
-
----
-
-### Lists
-
-#### Unordered List
-
-- Item 1
-- Item 2
-  - Sub-item 2.1
-  - Sub-item 2.2
-- Item 3
-
-#### Ordered List
-
-1. Item 1
-2. Item 2
-   1. Sub-item 2.1
-   2. Sub-item 2.2
-3. Item 3
-
-#### Task List (Checkboxes)
-
-- [x] Completed Task
-- [ ] Incomplete Task
-- [ ] Another Incomplete Task
-
----
-
-### Code
-
-#### Inline Code
-
-Here is some `inline code`.
-
-#### Code Block
+**Bad Example 👎**
 
 ```js
-function greet(name) {
-  console.log(`Hello, ${name}!`);
-}
-greet('Markdown');
+let a = [9, 3, 5, 1];
+a.sort((x, y) => x - y); // Ascending
+console.log(a);
+
+a.sort((x, y) => y - x); // Descending Are there any Python experts here?
+console.log(a);
 ```
 
----
-
-### Links
-
-[OpenAI](https://www.openai.com)
-
----
-
-### Images
-
-![Markdown Logo](https://markdown-here.com/img/icon256.png)
-
----
-
-### Tables
-
-| Column 1 | Column 2 | Column 3 |
-| -------- | -------- | -------- |
-| Row 1    | Data     | Example  |
-| Row 2    | More     | Data     |
-| Row 3    | Final    | Row      |
-
----
-
-### Horizontal Rule
-
----
-
-### Emojis
-
-🎉 :tada: :rocket: :smile:
+```plaintext
+User: Are there any Python experts here?
+This is ineffective because it's vague and requires others to commit before even knowing the question.
+```
