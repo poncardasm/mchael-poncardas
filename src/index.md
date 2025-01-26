@@ -1,10 +1,10 @@
 ---
 layout: 'base.njk'
-title: 'Cactus Theme Example'
+title: 'Mchael Poncardas'
 ---
 
 <header>
-    <h1>Cactus Theme Example</h1>
+    <h1>Mchael Poncardas</h1>
     <nav>
         <a href="/">Home</a>
         <a href="/writings">Writings</a>
