@@ -1,6 +1,7 @@
 ---
-title: 'My First Blog Post'
-date: '2025-01-25'
+layout: 'post.njk'
+title: 'First Post'
+date: '2025-01-01'
 ---
 
-Welcome to my first blog post written with 11ty! 🎉
+This is the content of my first blog post. It uses the shared post layout!

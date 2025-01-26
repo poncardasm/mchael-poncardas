@@ -1,4 +1,5 @@
 ---
+layout: 'post.njk'
 title: 'Second Blog Post'
 date: '2025-01-26'
 ---
