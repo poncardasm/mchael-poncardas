@@ -2,11 +2,11 @@ module.exports = function (eleventyConfig) {
   // Define a collection for blog posts
   eleventyConfig.addCollection('posts', function (collection) {
     return collection.getFilteredByGlob('./src/posts/*.md').sort((a, b) => {
-      return new Date(b.date) - new Date(a.date);
+      return new Date(b.date) - new Date(a.date); // Sort by date descending
     });
   });
 
-  // Add a passthrough copy for the CSS folder
+  // Add passthrough for CSS
   eleventyConfig.addPassthroughCopy('src/css');
 
   // Set directories
