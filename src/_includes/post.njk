@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
 </head>
 <body>
     <header>
@@ -17,10 +18,10 @@
         </nav>
     </header>
 
-    <div class="content">
+    <div class="post-content">
         <article>
           <h1>{{ title }}</h1>
-          <p>Published on {{ date }}</p>
+          <p>Published on {{ date | postDate }}</p>
           
           <div>
               {{ content | safe }}
@@ -28,5 +29,6 @@
         </article>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
 </body>
 </html>

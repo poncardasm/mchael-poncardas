@@ -14,25 +14,20 @@ title: 'Mchael Poncardas'
 </header>
 
 <div class="content">
-  <p>
-    Hi! I'm Mac. Welcome to my little corner of the internet. This is where I
-    share my learning journey as I explore new skills and technologies,
-    tutorials and guides to help others learn along with me, and some of the
-    projects I’ve worked on and am passionate about.
-  </p>
+  <p>Hi! I'm Mac. Welcome to my little corner of the internet...</p>
 
   <h2>Posts</h2>
   <ul>
     {% for post in collections.posts %}
     <li>
-      <a href="{{ post.url }}"
-        >{{ post.date | date: "%Y-%m-%d" }} - {{ post.data.title }}</a
-      >
+      <a href="{{ post.url }}">
+        {{ post.date | postDate }} &nbsp;&nbsp; {{ post.data.title }}
+      </a>
     </li>
     {% endfor %}
   </ul>
 </div>
 
-<footer>
-  <p>Copyright © 2025 Mchael Poncardas</p>
-</footer>
+<!-- <footer>
+  <p>&copy; 2025 Mchael Poncardas</p>
+</footer> -->

@@ -1,4 +1,11 @@
+const { DateTime } = require('luxon');
+
 module.exports = function (eleventyConfig) {
+  // Add Luxon date filter
+  eleventyConfig.addFilter('postDate', (dateObj) => {
+    return DateTime.fromJSDate(new Date(dateObj)).toFormat('MMM dd, yyyy');
+  });
+
   // Define a collection for blog posts
   eleventyConfig.addCollection('posts', function (collection) {
     return collection.getFilteredByGlob('./src/posts/*.md').sort((a, b) => {
