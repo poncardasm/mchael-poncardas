@@ -16,7 +16,6 @@ It's better to directly ask your specific question rather than first inquiring i
 
 ```plaintext
 User: Are there any Python experts here?
-This is ineffective because it's vague and requires others to commit before even knowing the question.
 ```
 
 This is ineffective because it's vague and requires others to commit before even knowing the question.
