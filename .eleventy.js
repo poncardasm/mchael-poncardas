@@ -3,7 +3,7 @@ const { DateTime } = require('luxon');
 module.exports = function (eleventyConfig) {
   // Add Luxon date filter
   eleventyConfig.addFilter('postDate', (dateObj) => {
-    return DateTime.fromJSDate(new Date(dateObj)).toFormat('MMM dd, yyyy');
+    return DateTime.fromJSDate(new Date(dateObj)).toFormat('yyyy-MM-dd');
   });
 
   // Define a collection for blog posts
@@ -15,6 +15,9 @@ module.exports = function (eleventyConfig) {
 
   // Add passthrough for CSS
   eleventyConfig.addPassthroughCopy('src/css');
+
+  // Copy images folder to the output directory
+  eleventyConfig.addPassthroughCopy('src/images');
 
   // Set directories
   return {

@@ -7,18 +7,16 @@ title: 'Mchael Poncardas'
   <h1>Mchael Poncardas</h1>
   <nav>
     <a href="/">Home</a>
-    <a href="/writings">Posts</a>
-    <a href="/tags">Tags</a>
-    <a href="/about">About</a>
+    <a href="https://www.linkedin.com/in/poncardas/">LinkedIn</a>
   </nav>
 </header>
 
 <div class="content">
+  <p>Hi! I'm Mac. Welcome to my little corner of the internet.</p>
   <p>
-    Hi! I'm Mac. Welcome to my little corner of the internet. This is where I
-    share my learning journey as I explore new skills and technologies,
-    tutorials and guides to help others learn along with me, and some of the
-    projects I’ve worked on and am passionate about.
+    This is where I share my learning journey as I explore new skills and
+    technologies, tutorials and guides to help others learn along with me, and
+    some of the projects I’ve worked on and am passionate about.
   </p>
 
   <h2>Posts</h2>
@@ -26,7 +24,8 @@ title: 'Mchael Poncardas'
     {% for post in collections.posts %}
     <li>
       <a href="{{ post.url }}">
-        {{ post.date | postDate }} &nbsp;&nbsp; {{ post.data.title }}
+        <span class="monospace">{{ post.date | postDate }}</span>&nbsp; -&nbsp;
+        {{ post.data.title }}
       </a>
     </li>
     {% endfor %}

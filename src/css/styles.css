@@ -186,3 +186,8 @@ blockquote {
   padding-top: 1.125rem;
   padding-bottom: 3.125rem;
 }
+
+/* Monospace */
+.monospace {
+  font-family: 'Consolas', monospace; /* Monospace font */
+}

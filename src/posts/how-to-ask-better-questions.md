@@ -4,6 +4,8 @@ title: 'How to Ask Better Questions: Help Others, Help You'
 date: '2023-11-23'
 ---
 
+<img src="/images/htabq.png" alt="Example Image" style="width: 100%;">
+
 > While asking questions may seem rather simple, in a programming environment it is essential to ask well formed questions with as much context as needed so you can get the most out of asking for help. In essence, “help others help you!” — The Odin Project
 
 ## 📌 Don’t Ask To Ask, Just Ask
